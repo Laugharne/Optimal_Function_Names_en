@@ -51,7 +51,7 @@
 
 Cost optimization in gas is a key challenge in the development of smart contracts on the Ethereum blockchain, as each operation on Ethereum incurs a gas cost. This article is the translation of [Optimisation sur Ethereum : Faites la différence avec les noms de fonctions](https://medium.com/@franck.maussand/optimisation-sur-ethereum-faites-la-diff%C3%A9rence-avec-les-noms-de-fonctions-ba4692c9e39f) (🇫🇷).
 
-**Rappel :**
+**Reminder :**
 
 - The **bytecode** represents a smart contract on the blockchain as a sequence of hexadecimal values.
 - The Ethereum Virtual Machine (**EVM**) executes instructions by reading this bytecode during interactions with the contract.
