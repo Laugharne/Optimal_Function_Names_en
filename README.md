@@ -63,7 +63,7 @@ In this article, we will explore how simply naming your functions can influence 
 
 We will also discuss various optimization strategies, from the order of signature hashes to function renaming tricks, to reduce costs associated with interactions with your contracts.
 
-**Précisions :**
+**Details :**
 
 This article is based on:
 1. **Solidity** code (0.8.13, 0.8.17, 0.8.20, 0.8.22)
