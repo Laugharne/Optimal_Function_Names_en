@@ -876,7 +876,7 @@ Credits: **[Franck Maussand](mailto:franck@maussand.net)**
   - [SHA-3 - Wikipedia](https://en.wikipedia.org/wiki/SHA-3)
   - [Difference Between SHA-256 and Keccak-256 - GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-sha-256-and-keccak-256/)
 
-- Recherche dichotomique :
+- Binary search :
   - [Binary search algorithm - Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)
   - [Big O notation - Wikipedia](https://en.wikipedia.org/wiki/Big_O_notation)
 
