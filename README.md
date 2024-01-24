@@ -39,11 +39,11 @@
 ## TL;DR
 
 1. *Cost optimization in gas is crucial for smart contracts on Ethereum.*
-1. *The "function dispatcher" manages the execution of functions in smart contracts for EVMs.*
-1. *Solidity compiler generates the "function dispatcher" for publicly exposed functions, whereas in Yul, it needs to be coded.*
-1. *Signatures, hashes, and footprints of functions are determined by their names and parameter types.*
-1. *The compiler's optimization setting and the number of functions impact the function selection algorithm.*
-1. *Strategic renaming of functions optimizes gas costs and the selection order, influenced by footprint values.*
+2. *The "function dispatcher" manages the execution of functions in smart contracts for EVMs.*
+3. *Solidity compiler generates the "function dispatcher" for publicly exposed functions, whereas in Yul, it needs to be coded.*
+4. *Signatures, hashes, and footprints of functions are determined by their names and parameter types.*
+5. *The compiler's optimization setting and the number of functions impact the function selection algorithm.*
+6. *Strategic renaming of functions optimizes gas costs and the selection order, influenced by footprint values.*
 
 
 
@@ -852,7 +852,7 @@ I have developed **Select0r**, a tool written in **Rust** that allows you to ren
 
 - On the other hand, it should be prioritized for functions assumed to be the most frequently called (to be determined manually or statistically during practical tests).
 
-- A single optimization may seem insignificant, especially compared to the overall cost of a transaction. However, a set of optimizations performed on a series of transactions makes all the difference, and it's not limited to optimizations on the "_function dispatcher_."
+- A single optimization may seem insignificant, especially compared to the overall cost of a transaction. However, a set of optimizations performed on a series of transactions makes all the difference, and it's not limited to optimizations on the "*function dispatcher*."
 
 In the end, these optimizations can make the difference between a cost-effective contract and one that is gas-expensive.
 
